@@ -1,0 +1,10 @@
+[project]
+name = "langchain-cohere-test"
+version = "0.0.1"
+description = "LangChain Cohere test for database analysis with SQL agent"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
