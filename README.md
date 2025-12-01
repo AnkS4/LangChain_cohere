@@ -51,10 +51,12 @@ A collection of LangChain implementations using cohere's language models for nat
 
 ```
 LangChain_cohere/
-├── l1.py                  # Test application with LangChain agent and SQL integration
-├── l2.py                  
-├── ...
-├── Chinook.db             # SQLite database (music store data)
+├── src/                 # Directory for Python scripts
+│   ├── l1.py              # Test application with LangChain agent and SQL integration
+│   ├── l2.py
+│   └── ...                
+├── db/                  # Directory for database files
+│   └── Chinook.db         # SQLite database (music store data)
 ├── .env                   # Environment variables (API keys, database config)
 ├── example.env            # Template for required environment variables
 ├── requirements.txt       # Python package dependencies
