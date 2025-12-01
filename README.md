@@ -59,6 +59,7 @@ LangChain_cohere/
 │   └── Chinook.db         # SQLite database (music store data)
 ├── .env                   # Environment variables (API keys, database config)
 ├── example.env            # Template for required environment variables
+├── uv.lock                # uv lock file (for dependency management)
 ├── requirements.txt       # Python package dependencies
 ├── pyproject.toml         # Project configuration and metadata (For uv)
 ├── Makefile               # Common development commands

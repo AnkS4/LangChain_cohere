@@ -19,7 +19,7 @@ list:
 
 # Install dependencies
 install:
-	uv init
+	# uv init
 	uv sync
 
 # Run a Python program
@@ -35,7 +35,7 @@ run:
 		exit 1; \
 	fi; \
 	echo "Running $$(basename "$$SCRIPT")..."; \
-	.venv/bin/python "$$SCRIPT"
+	uv run "$$SCRIPT"
 
 # Clean up
 clean:
